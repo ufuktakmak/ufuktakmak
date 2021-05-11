@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML | CSS inline</title>
+    <!-- bu alan html kodlari icerir  -->
+    <style> 
+/* HEAD icersinde style tagindaki asagidaki h1 bu alan CSS kodlari icerir ,
+ CSS Selectorlar
+ ile istenilen html elamanina stillendirme yapilabilir, 
+ tum sayfadaki ayni adli kodlar icin gecerlidir */
+
+ /* style etiketi ile yapilan stillendirmeler sadece bu dosya icin gecerli olur
+ Eger tum proje icin global stillendirme icin harici bir CSS dosya gerekit
+ ayrica bu dosyayi HTML le import etmeliyiz */
+ *{
+
+     text-align: center;
+ }
+h1 {
+    color: green;
+    text-align:center;
+    front-size= 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 60px;
+}
+p{
+color: blueviolet;
+}
+#p1{
+color: brown;
+
+}
+.p2{
+text-align: left;
+}
+    </style>
+</head>
+<body>
+    <h1>TABLO EKLE</h1>
+    <h1>CSS stillendirme</h1>
+    <!-- id bir CSS selectordur ve tek element stillendirilecekse kullanilir 
+    id ye erisim icin # (dies) kullanilir-->
+    <!-- HTML; CSS isimlendirme yapilirken kebab case kullanilir -->
+    <p id="p1">Bu bir paragraf</p>
+    <!-- Grup stillendirmesi icin class -->
+    <p class="p2">Bu baska bir paragraf </p>
+    <p>CSS html ye gore daha detaylidir</p>
+</body>
+</html>

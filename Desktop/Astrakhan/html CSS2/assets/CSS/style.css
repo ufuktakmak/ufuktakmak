@@ -1,0 +1,40 @@
+
+*{
+
+    text-align: :center;
+}
+
+h1{
+color: crimson;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 30px;
+
+}
+/*  solid vaya double or dashed */
+/* cizgi kalinli, cizgi turu, renk */
+.tablo{
+border:2px solid gray;
+border-collapse: collapse;
+ width: 70% ; /* Yuzdelik dilim sayfaya gore */
+ margin-left: auto;  /* Sol ve sagdan otomatik bosluk koyarak nesneler ortaya hizalanabilir */
+ margin-right: auto;
+}
+
+/* Birden fazla attribute ler
+ ayni stillendirme yapilacaksa virgul ile ayrilarak yazilabilir */
+th,
+ td{
+    border:2px solid gray;
+}
+th{
+
+    background-color: yellow;
+}
+tr:hover {
+    background-color: green;
+}
+ tr:nth-child(odd){  /* tr(row larin even larini acik gri yapi lerin*/
+
+    background-color:  rgb(194, 185, 169);
+}
+
